@@ -1,2 +1,1 @@
-
-Copyright (C) 2017 
+Copyright (C) 2017 Lee Sung Jae
