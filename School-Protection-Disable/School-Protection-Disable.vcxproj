@@ -140,7 +140,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\main.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="KillCore.cpp" />
+    <ClCompile Include="KillCustom.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
