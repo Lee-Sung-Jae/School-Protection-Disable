@@ -1,15 +1,18 @@
 #include <iostream>
 #include <stdio.h>
 
+#include "KillCustom.cpp"
 
 using namespace std;
 
 void printCopyRight(void);
 
+KillCustom kill = KillCustom();
 
 void main(void) {
 	printCopyRight();
 
+	kill.run();
 }
 
 void printCopyRight(void) {
