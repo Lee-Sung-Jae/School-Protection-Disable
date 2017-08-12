@@ -48,7 +48,7 @@ private:
 	}
 
 	void setStop(const string source) {
-		command = "sc config " + source + " 1:1:1 Unuseful";
+		command = "sc stop " + source + " 1:1:1 Unuseful";
 
 		logInfo(command);
 		system(command.c_str());
