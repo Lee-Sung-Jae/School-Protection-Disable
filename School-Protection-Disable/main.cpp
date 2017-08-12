@@ -12,7 +12,7 @@ KillCustom kill = KillCustom();
 void main(void) {
 	printCopyRight();
 
-	kill.run();
+	kill.start();
 }
 
 void printCopyRight(void) {

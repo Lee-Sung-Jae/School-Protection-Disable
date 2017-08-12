@@ -8,7 +8,7 @@ class KillCustom {
 public:
 	KillCustom(void) {}
 
-	void run(void) {
+	void start(void) {
 		Gn();
 		Pa();
 		V3();
